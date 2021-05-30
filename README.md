@@ -7,7 +7,7 @@ Matthew Tung
 Kelsey Tsuchiyama 
 
 
-**Music Consulting Project **
+**Music Consulting Project**
 	
   Music consultant is a platform with two major components: it provides data about music properties based on the Spotify API and allows users to input information about their song to get feedback. Users can look at trends in and common values of attributes such as the danceability, tempo, energy, etc. of songs. They can also enter the attributes of their song into the platform to get insight and predictions on whether or not they reach their target emotion and genre, and how they stand among popular songs.
   
@@ -28,12 +28,12 @@ Kelsey Tsuchiyama
 Thus, we tried to categorize all 100 years of popular music. 
 Both rock and pop are still popular over 100 years and sklearn did not categorize with other genres. Thus, we tried deleting pop and rock to see if sklearn will diversify its classification. 
 
-	SVC is only classifying the songs into four different genres, where Funk got the most classification. This indicates two things: that funk may have a close relationship with rock and pop and the data available was not enough to distinctively classify genres. Therefore, we need to diversify the types of quantitative data  that will allow SVC to better find the multi-dimensional vector line and separate the genres. 
+SVC is only classifying the songs into four different genres, where Funk got the most classification. This indicates two things: that funk may have a close relationship with rock and pop and the data available was not enough to distinctively classify genres. Therefore, we need to diversify the types of quantitative data  that will allow SVC to better find the multi-dimensional vector line and separate the genres. 
   
 **User Interaction and Displaying Statistics:**
 The results of our data gathering and analysis and the user interaction component can be found on our website. The website has an about section which tells you more about the project, a statistics page where you can find a summary of our results, some data visualizations, and a sample of our data, and finally, a user interaction page called My Consultant. This page asks the user to input different attributes of their song, and uses this information to give the user feedback. The feedback consists of information about the user’s song’s sentiment analysis, genre prediction, emotion prediction, and information about where the user stands in comparison to the data we have gathered. It also tells the user whether they reached their target genre and emotion. The website is essentially a combination of everything we’ve done so far: it brings together both methods and results we generated throughout the course of the semester. 
 
-**NOTE**
+**IMPORTANT NOTE:**
 Access to SQL databases and APIs is restricted due to the need of access to private servers and unique/personal tokens for API Calls.
 
 
