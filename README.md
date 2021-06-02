@@ -1,9 +1,9 @@
 # Music-Consultant
 Archive for a small data science project for statistics about music trends and insight on your music
 
-Aayusha Shrestha 
-Yefan Zong 
-Matthew Tung 
+Aayusha Shrestha, 
+Yefan Zong, 
+Matthew Tung, 
 Kelsey Tsuchiyama 
 
 
